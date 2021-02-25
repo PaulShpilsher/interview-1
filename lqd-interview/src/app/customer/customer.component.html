@@ -1,0 +1,16 @@
+<h2>Customer</h2>
+<label>First name:</label>
+<input (input)="firstName=$event.target.value">
+
+<label>Last name:</label>
+<input (input)="lastName=$event.target.value">
+
+<button (click)="search">Search</button>
+<br/>
+<div *ngIf="!!customer">
+    <ul>
+        <li>{{customer.firstName}}</li>
+        <li>{{customer.lastName}}</li>
+        <li>{{customer.emailAddress}}</li>
+    </ul>
+</div>

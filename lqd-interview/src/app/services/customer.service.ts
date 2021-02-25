@@ -9,7 +9,7 @@ const apiUrl = `${environment.serviceUrl}/customers`;
 @Injectable({
     providedIn: 'root'
 })
-export class CusomerService {
+export class CustomerService {
     constructor(
         private httpClient: HttpClient) {
     }

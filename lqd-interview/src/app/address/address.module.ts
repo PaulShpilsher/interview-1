@@ -13,7 +13,6 @@ import { AddressService } from '../services/address.service ';
     AddressRoutingModule
   ],
   providers: [
-    AddressService,
   ]
 })
 export class AddressModule { }
