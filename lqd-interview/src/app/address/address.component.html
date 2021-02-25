@@ -1,0 +1,16 @@
+<h2>Addresses</h2>
+<label>Enter country</label>
+<input (input)="country=$event.target.value">
+<button (click)="search">Search</button>
+<br/>
+<div *ngFor="let x of addresses">
+    <ul>
+        <li>{{x.line1}}</li>
+        <li *ngIf="!!x.line2">{{x.line2}}</li>
+        <li>{{x.line1}}</li>
+        <li>{{x.city}}</li>
+        <li>{{x.stateOrProvince}}</li>
+        <li>{{x.country}}</li>
+        <li>{{x.postalCode}}</li>
+    </ul>
+  </div>
