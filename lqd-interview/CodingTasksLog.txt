@@ -15,5 +15,10 @@
 
 - Create a new module to search for customers in the angular application. Display results
 
+    TIME: 20m
+
 Refactor Customer response object to include the associated address
+    TODO
+
 Refactor angular application to display the refactored customer response addresses
+    TODO
