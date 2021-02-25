@@ -11,3 +11,6 @@ export interface CustomerSearchRequest {
     firstName: string
     lastName: string
 }
+
+
+export const Customer = (json: any): Customer => ({ ...json });

@@ -7,3 +7,5 @@ export interface Address {
     country: string
     postalCode: string
 }
+
+export const toAddress = (json: any): Address => ({ ...json });
