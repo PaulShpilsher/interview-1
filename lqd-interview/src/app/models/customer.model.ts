@@ -13,4 +13,5 @@ export interface CustomerSearchRequest {
 }
 
 
-export const Customer = (json: any): Customer => ({ ...json });
+export const toCustomer = (json: any): Customer => ({ ...json });
+export const toCustomerSearchRequest = (firstName: string, lastName: string): CustomerSearchRequest => ({ firstName, lastName });
