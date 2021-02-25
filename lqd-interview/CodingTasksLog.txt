@@ -1,0 +1,7 @@
+Create an object model in the angular application to support requests / responses from the API
+Create factories in the angular application to instantiate objects based on API results
+Create a service in the angular application to connect to the API and use the appropriate object models
+Create a new module to search for customers in the angular application. Display results
+Create a new module to search for addresses in the angular application. Display results.
+Refactor Customer response object to include the associated address
+Refactor angular application to display the refactored customer response addresses
